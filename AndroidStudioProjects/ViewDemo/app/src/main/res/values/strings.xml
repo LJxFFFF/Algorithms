@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewDemo</string>
+    <string name="action_settings">添加城市</string>
+    <string name="Get">Get</string>
+    <string name="请输入城市名">请输入城市名称</string>
+    <string name="sun">weather</string>
+</resources>
