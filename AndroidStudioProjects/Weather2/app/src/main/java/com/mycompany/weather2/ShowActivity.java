@@ -1,9 +1,8 @@
 package com.mycompany.weather2;
 
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.widget.BaseAdapter;
 
@@ -11,7 +10,6 @@ import com.mycompany.weather2.Data.City;
 import com.mycompany.weather2.Data.DailyForecast;
 import com.mycompany.weather2.Method.CityJson;
 import com.mycompany.weather2.Method.HttpCon;
-import com.mycompany.weather2.Method.ImagerLoader;
 import com.mycompany.weather2.Method.WeatherJson;
 import com.yalantis.euclid.library.EuclidActivity;
 import com.yalantis.euclid.library.EuclidListAdapter;
@@ -89,7 +87,7 @@ public class ShowActivity extends EuclidActivity {
                 R.drawable.konstantin,
                 R.drawable.oleksii,
                 R.drawable.pavel,
-                R.drawable.vadim};
+                R.drawable.weather101};
         String[] names = getResources().getStringArray(R.array.array_names);
 
         for (int i = 0; i < avatars.length; i++) {
